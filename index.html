@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Support — Ελληνικά</title>
+<style>
+  :root {
+    --ink: #123A5E;
+    --sea: #2A6F8E;
+    --plaster: #EDF1F3;
+    --olive: #6E7A4F;
+    --muted: #5C6B77;
+    --card: #FFFFFF;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--plaster);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.6;
+  }
+
+  .wrap {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 64px 24px 80px;
+  }
+
+  header {
+    margin-bottom: 40px;
+  }
+
+  .mark {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: var(--sea);
+    margin: 0 0 6px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .lede {
+    color: var(--muted);
+    font-size: 17px;
+    margin-top: 14px;
+    max-width: 46ch;
+  }
+
+  .card {
+    background: var(--card);
+    border: 1px solid rgba(18, 58, 94, 0.08);
+    border-radius: 14px;
+    padding: 28px;
+    margin-top: 32px;
+  }
+
+  .card h2 {
+    font-size: 15px;
+    text-transform: none;
+    margin: 0 0 12px;
+    color: var(--ink);
+  }
+
+  .card p {
+    margin: 0 0 6px;
+    color: var(--muted);
+    font-size: 15px;
+  }
+
+  a.contact {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--sea);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1.5px solid rgba(42, 111, 142, 0.35);
+    padding-bottom: 1px;
+  }
+
+  a.contact:hover { border-bottom-color: var(--sea); }
+
+  .faq {
+    margin-top: 32px;
+  }
+
+  .faq h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--ink);
+    margin: 0 0 16px;
+  }
+
+  details {
+    border-bottom: 1px solid rgba(18, 58, 94, 0.08);
+    padding: 14px 0;
+  }
+
+  details:last-child { border-bottom: none; }
+
+  summary {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--ink);
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker { display: none; }
+
+  summary::before {
+    content: "+";
+    display: inline-block;
+    width: 16px;
+    color: var(--sea);
+    font-weight: 700;
+  }
+
+  details[open] summary::before { content: "–"; }
+
+  details p {
+    margin: 10px 0 0 16px;
+    color: var(--muted);
+    font-size: 14.5px;
+  }
+
+  footer {
+    margin-top: 56px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="mark">Ελληνικά</p>
+      <h1>Support</h1>
+      <p class="lede">Questions, feedback, or something not working the way it should — here's how to reach me.</p>
+    </header>
+
+    <div class="card">
+      <h2>Get in touch</h2>
+      <p>For bugs, feature requests, or anything about the app, email:</p>
+      <a class="contact" href="mailto:nicholas.hristis@gmail.com">nicholas.hristis@gmail.com</a>
+      <p style="margin-top: 16px;">I read every message and usually reply within a couple of days.</p>
+    </div>
+
+    <div class="faq">
+      <h2>Common questions</h2>
+
+      <details>
+        <summary>I can't hear any audio</summary>
+        <p>The app uses your iPhone's built-in Greek voice. If your device doesn't have one installed, go to Settings → Accessibility → Spoken Content → Voices → Greek, and download a voice. Also check that your phone isn't on silent and the volume is turned up.</p>
+      </details>
+
+      <details>
+        <summary>Will I lose my progress if I delete the app?</summary>
+        <p>Yes — progress is saved only on your device, with no account or cloud sync. Reinstalling the app starts you back at the beginning.</p>
+      </details>
+
+      <details>
+        <summary>Does the app need an internet connection?</summary>
+        <p>No. Every lesson, phrase, and audio clip works fully offline once the app is installed.</p>
+      </details>
+
+      <details>
+        <summary>Can I suggest a phrase or a new unit?</summary>
+        <p>Yes, please do — email the address above with your idea.</p>
+      </details>
+    </div>
+
+    <footer>
+      Ελληνικά — a Greek phrasebook and lesson app.
+    </footer>
+  </div>
+</body>
+</html>
