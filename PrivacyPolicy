@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Ελληνικά</title>
+<style>
+  :root {
+    --ink: #123A5E;
+    --sea: #2A6F8E;
+    --plaster: #EDF1F3;
+    --olive: #6E7A4F;
+    --muted: #5C6B77;
+    --card: #FFFFFF;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--plaster);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.65;
+  }
+
+  .wrap {
+    max-width: 620px;
+    margin: 0 auto;
+    padding: 64px 24px 80px;
+  }
+
+  header { margin-bottom: 36px; }
+
+  .mark {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: var(--sea);
+    margin: 0 0 6px;
+  }
+
+  h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0;
+    letter-spacing: -0.01em;
+  }
+
+  .updated {
+    color: var(--muted);
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  .summary {
+    background: var(--card);
+    border: 1px solid rgba(18, 58, 94, 0.08);
+    border-left: 4px solid var(--olive);
+    border-radius: 14px;
+    padding: 24px 26px;
+    margin-bottom: 36px;
+  }
+
+  .summary p {
+    margin: 0;
+    font-size: 17px;
+    color: var(--ink);
+  }
+
+  section { margin-top: 30px; }
+
+  h2 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 8px;
+    color: var(--ink);
+  }
+
+  section p, section li {
+    color: var(--muted);
+    font-size: 15.5px;
+  }
+
+  section p { margin: 0 0 10px; }
+
+  ul {
+    margin: 0 0 10px;
+    padding-left: 20px;
+  }
+
+  li { margin-bottom: 6px; }
+
+  a {
+    color: var(--sea);
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1.5px solid rgba(42, 111, 142, 0.35);
+    padding-bottom: 1px;
+  }
+
+  a:hover { border-bottom-color: var(--sea); }
+
+  footer {
+    margin-top: 56px;
+    font-size: 13px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="mark">Ελληνικά</p>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated: October 11, 2026</p>
+    </header>
+
+    <div class="summary">
+      <p>Ελληνικά does not collect, store, or share any personal information. There are no accounts, no ads, and no tracking. Everything you do in the app stays on your own device.</p>
+    </div>
+
+    <section>
+      <h2>What we collect</h2>
+      <p>Nothing. The app does not ask for your name, email address, location, contacts, or any other personal details, and it does not send any information about you or your use of the app to us or to anyone else.</p>
+    </section>
+
+    <section>
+      <h2>What stays on your device</h2>
+      <p>To remember your place in the course, the app saves a small amount of data locally on your iPhone or iPad:</p>
+      <ul>
+        <li>Which lessons you have finished</li>
+        <li>Your points</li>
+        <li>Your settings, such as slow speech and whether English spelling is shown</li>
+      </ul>
+      <p>This information never leaves your device. It is not backed up to any server of ours, and we cannot see it. If you delete the app, it is deleted with it.</p>
+    </section>
+
+    <section>
+      <h2>Audio and pronunciation</h2>
+      <p>Greek phrases are spoken using the text-to-speech voices built into your device by Apple. The audio is generated on your device. The app does not use your microphone and does not record your voice.</p>
+    </section>
+
+    <section>
+      <h2>Third parties</h2>
+      <p>The app does not include advertising, analytics, crash-reporting, or any other third-party code that collects data. It does not need an internet connection to work.</p>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>Because the app collects no personal information from anyone, it collects none from children either. It contains no chat, social features, links to outside websites, or purchases.</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If the app ever changes in a way that affects your privacy, this page will be updated before the change is released, and the date at the top will change.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this policy? Email <a href="mailto:nicholas.hristis@gmail.com">nicholas.hristis@gmail.com</a>.</p>
+    </section>
+
+    <footer>
+      Ελληνικά — a Greek phrasebook and lesson app. · <a href="index.html">Support</a>
+    </footer>
+  </div>
+</body>
+</html>
